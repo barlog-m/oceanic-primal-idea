@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>li.barlog.oceanic-primal</id>
+    <name>Oceanic Primal Theme</name>
+    <vendor email="barlog@tanelorn.li" url="https://barlog.li">Barlog M.</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="c549e969-dfea-4e34-ab6f-2f256a4e20db"
+                       path="/META-INF/Oceanic_Primal.theme.json"/>
+    </extensions>
+</idea-plugin>

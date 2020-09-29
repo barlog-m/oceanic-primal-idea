@@ -719,6 +719,20 @@
                 <option name="FOREGROUND" value="65737e"/>
             </value>
         </option>
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE"
+                baseAttributes="DEFAULT_INVALID_STRING_ESCAPE"/>
+        <option name="PROPERTIES.KEY">
+            <value>
+                <option name="FOREGROUND" value="cdd3de"/>
+            </value>
+        </option>
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR"
+                baseAttributes="DEFAULT_OPERATION_SIGN"/>
+        <option name="PROPERTIES.VALUE">
+            <value>
+                <option name="FOREGROUND" value="cdd3de"/>
+            </value>
+        </option>
         <option name="PY.VALID_STRING_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="ec5f67"/>

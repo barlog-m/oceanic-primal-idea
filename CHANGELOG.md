@@ -5,6 +5,10 @@
 ## [Unreleased]
 Nothing
 
+## [0.0.3]
+### Changes
+- Update properties file colors
+
 ## [0.0.2]
 ### Changes
 - Update compatibility with community edition

@@ -18,5 +18,7 @@ A minimalistic theme based on [Oceanic Primal palette](https://github.com/oceani
 
 Font on screenshots is [PragmataPro](https://fsd.it/shop/fonts/pragmatapro/)
 
-[Oceanic Primal for VIM](https://github.com/barlog-m/oceanic-primal-vim)
-[Oceanic Primal for other programs](https://github.com/barlog-m/oceanic-primal)
+-   [Oceanic Primal for VIM](https://github.com/barlog-m/oceanic-primal-vim)
+-   [Oceanic Primal for other programs](https://github.com/barlog-m/oceanic-primal)
+
+[![MIT License](https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square)](https://opensource.org/licenses/MIT)

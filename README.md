@@ -12,8 +12,11 @@ A minimalistic theme based on [Oceanic Primal palette](https://github.com/oceani
 
 [JetBrains Plugins Repository link](https://plugins.jetbrains.com/plugin/15141-oceanic-primal-theme)
 
-Font on screenshots is [PragmataPro](https://fsd.it/shop/fonts/pragmatapro/)
-
 ![Screenshot](screenshot0.png)
 ![Screenshot](screenshot1.png)
 ![Screenshot](screenshot2.png)
+
+Font on screenshots is [PragmataPro](https://fsd.it/shop/fonts/pragmatapro/)
+
+[Oceanic Primal for VIM](https://github.com/barlog-m/oceanic-primal-vim)
+[Oceanic Primal for other programs](https://github.com/barlog-m/oceanic-primal)

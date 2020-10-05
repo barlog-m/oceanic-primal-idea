@@ -1,5 +1,9 @@
 # Oceanic Primal color scheme for IntelliJ IDEA
 
+[![GitHub Tags](https://img.shields.io/github/tag/barlog-m/oceanic-primal-idea.svg)](https://github.com/barlog-m/oceanic-primal-idea/tags)
+
+[![MIT License](https://img.shields.io/badge/license-MIT-0298c3.svg)](https://opensource.org/licenses/MIT)
+
 <!-- Plugin description -->
 
 **Oceanic Primal** color scheme for [IntelliJ IDEA](https://www.jetbrains.com/idea/)
@@ -19,6 +23,5 @@ A minimalistic theme based on [Oceanic Primal palette](https://github.com/oceani
 Font on screenshots is [PragmataPro](https://fsd.it/shop/fonts/pragmatapro/)
 
 -   [Oceanic Primal for VIM](https://github.com/barlog-m/oceanic-primal-vim)
+-   [Oceanic Primal for Sublime Text](https://github.com/barlog-m/oceanic-primal-sublime)
 -   [Oceanic Primal for other programs](https://github.com/barlog-m/oceanic-primal)
-
-[![MIT License](https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square)](https://opensource.org/licenses/MIT)

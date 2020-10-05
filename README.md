@@ -1,7 +1,7 @@
 # Oceanic Primal color scheme for IntelliJ IDEA
 
 [![GitHub Tags](https://img.shields.io/github/v/tag/barlog-m/oceanic-primal-idea?color=0298c3&label=version&style=flat-square)](https://github.com/barlog-m/oceanic-primal-idea/tags)
-[![MIT License](https://img.shields.io/badge/license-MIT-0298c3.svg&style=flat-square)](https://opensource.org/licenses/MIT)
+[![MIT License](https://img.shields.io/badge/license-MIT-0298c3.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 <!-- Plugin description -->
 

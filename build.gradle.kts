@@ -10,7 +10,7 @@ plugins {
 val appName = "oceanic-primal"
 
 group = "li.barlog"
-version = "0.0.3"
+version = "0.0.4"
 
 repositories {
     jcenter()

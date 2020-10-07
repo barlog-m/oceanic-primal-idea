@@ -1,7 +1,7 @@
 <scheme name="Oceanic Primal" version="142" parent_scheme="Darcula">
     <colors>
         <option name="ADDED_LINES_COLOR" value="99c794"/>
-        <option name="ANNOTATIONS_COLOR" value="4f5b66"/>
+        <option name="ANNOTATIONS_COLOR" value="1b2b34"/>
         <option name="CARET_COLOR" value="cdd3de"/>
         <option name="CARET_ROW_COLOR" value="343d46"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="1b2b34"/>
@@ -23,6 +23,8 @@
         <option name="HTML_TAG_TREE_LEVEL3" value="62b3b2"/>
         <option name="HTML_TAG_TREE_LEVEL4" value="6699cc"/>
         <option name="HTML_TAG_TREE_LEVEL5" value="c594c5"/>
+        <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="99c794"/>
+        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="4f5b66"/>
         <option name="INDENT_GUIDE" value=""/>
         <option name="LINE_NUMBERS_COLOR" value="65737e"/>
         <option name="METHOD_SEPARATORS_COLOR" value="4f5b66"/>
@@ -37,8 +39,14 @@
         <option name="SELECTION_BACKGROUND" value="65737e"/>
         <option name="SELECTION_FOREGROUND" value="d8dee9"/>
         <option name="TEARLINE_COLOR" value="d8dee9"/>
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="cdd3de"/>
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="a7adba"/>
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="4f5b66"/>
+        <option name="VCS_ANNOTATIONS_COLOR_4" value=""/>
+        <option name="VCS_ANNOTATIONS_COLOR_5" value=""/>
         <option name="VISUAL_INDENT_GUIDE" value="4f5b66"/>
         <option name="WHITESPACES" value="c0c5ce"/>
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="fac863"/>
     </colors>
     <attributes>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">

@@ -3,17 +3,30 @@
 # Oceanic Primal color scheme for IntelliJ IDEA Changelog
 
 ## [Unreleased]
+
 Nothing
 
-## [0.0.3]
+## [0.0.4]
+
 ### Changes
-- Update properties file colors
+
+-   Update VCS Annotation colors
+
+## [0.0.3]
+
+### Changes
+
+-   Update properties file colors
 
 ## [0.0.2]
+
 ### Changes
-- Update compatibility with community edition
-- Some updates for different languages
+
+-   Update compatibility with community edition
+-   Some updates for different languages
 
 ## [0.0.1]
+
 ### Added
-- Initial release
+
+-   Initial release

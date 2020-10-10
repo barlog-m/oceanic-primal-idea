@@ -706,6 +706,16 @@
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
+        <option name="MARKDOWN_BOLD">
+            <value>
+                <option name="FONT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="MARKDOWN_ITALIC">
+            <value>
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="ec5f67"/>
@@ -926,6 +936,8 @@
                 <option name="FOREGROUND" value="6699cc"/>
             </value>
         </option>
+        <option name="org.rust.FUNCTION_CALL"
+                baseAttributes="DEFAULT_FUNCTION_CALL"/>
         <option name="org.rust.LIFETIME">
             <value>
                 <option name="FOREGROUND" value="c594c5"/>
@@ -937,6 +949,8 @@
                 <option name="FOREGROUND" value="5fb3b3"/>
             </value>
         </option>
+        <option name="org.rust.METHOD_CALL"
+                baseAttributes="DEFAULT_FUNCTION_CALL"/>
         <option name="org.rust.MUT_BINDING">
             <value>
                 <option name="EFFECT_COLOR" value="c0c5ce"/>

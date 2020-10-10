@@ -3,14 +3,14 @@ import org.jetbrains.changelog.markdownToHTML
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "0.4.22"
-    id("org.jetbrains.changelog") version "0.5.0"
+    id("org.jetbrains.intellij") version "0.5.0"
+    id("org.jetbrains.changelog") version "0.6.1"
 }
 
 val appName = "oceanic-primal"
 
 group = "li.barlog"
-version = "0.0.4"
+version = "0.0.5"
 
 repositories {
     jcenter()

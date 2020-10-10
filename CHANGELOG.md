@@ -6,6 +6,13 @@
 
 Nothing
 
+## [0.0.5]
+
+### Changes
+
+-   Fix Rust methods call colors
+-   Enable bold and italic fonts in Markdown
+
 ## [0.0.4]
 
 ### Changes

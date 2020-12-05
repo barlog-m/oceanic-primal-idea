@@ -6,6 +6,14 @@
 
 Nothing
 
+## [0.0.6]
+
+### Changes
+
+-   IDEA 2020.3 support
+-   Colors for Android Logcat
+-   Some color scheme fixes
+
 ## [0.0.5]
 
 ### Changes

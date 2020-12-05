@@ -3,14 +3,17 @@ import org.jetbrains.changelog.markdownToHTML
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "0.5.0"
-    id("org.jetbrains.changelog") version "0.6.1"
+    id("org.jetbrains.intellij") version "0.6.5"
+    id("org.jetbrains.changelog") version "0.6.2"
+
+    // ./gradlew dependencyUpdates -Drevision=release
+    id("com.github.ben-manes.versions") version "0.36.0"
 }
 
 val appName = "oceanic-primal"
 
 group = "li.barlog"
-version = "0.0.5"
+version = "0.0.6"
 
 repositories {
     jcenter()
@@ -29,7 +32,7 @@ java {
 
 intellij {
     pluginName = "Oceanic Primal Theme"
-    version = "IC-2020.2"
+    version = "IC-2020.3"
     type = "IC"
 }
 
@@ -66,7 +69,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "6.6.1"
+        gradleVersion = "6.7.1"
         distributionType = Wrapper.DistributionType.ALL
     }
 
@@ -74,7 +77,7 @@ tasks {
         manifest {
             attributes(
                 "Implementation-Title" to rootProject.name,
-                "Implementation-Version" to version,
+                "Implementation-Version" to archiveVersion,
                 "Multi-Release" to true
             )
         }

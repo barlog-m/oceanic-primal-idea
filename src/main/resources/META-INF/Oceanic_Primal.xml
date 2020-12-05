@@ -264,6 +264,8 @@
                 <option name="FOREGROUND" value="fac863"/>
             </value>
         </option>
+        <option name="DEFAULT_CLASS_REFERENCE"
+                baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_COMMA">
             <value>
                 <option name="FOREGROUND" value="fac863"/>
@@ -670,6 +672,26 @@
                 <option name="EFFECT_COLOR" value="fac863"/>
             </value>
         </option>
+        <option name="LOGCAT_ASSERT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="6699cc"/>
+            </value>
+        </option>
+        <option name="LOGCAT_DEBUG_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="99c794"/>
+            </value>
+        </option>
+        <option name="LOGCAT_VERBOSE_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="65737e"/>
+            </value>
+        </option>
+        <option name="LOGCAT_WARNING_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="fac863"/>
+            </value>
+        </option>
         <option name="LOG_DEBUG_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="c0c5ce"/>
@@ -713,7 +735,7 @@
         </option>
         <option name="MARKDOWN_ITALIC">
             <value>
-                <option name="FONT_TYPE" value="2" />
+                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
@@ -763,6 +785,7 @@
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
+        <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT"/>
         <option name="SASS_MIXIN">
             <value>
                 <option name="FOREGROUND" value="99c794"/>
@@ -873,9 +896,7 @@
             </value>
         </option>
         <option name="TS.TYPE_GUARD">
-            <value>
-                <option name="BACKGROUND" value="4f5b66"/>
-            </value>
+            <value/>
         </option>
         <option name="TYPE_PARAMETER_NAME_ATTRIBUTES"
                 baseAttributes="DEFAULT_PARAMETER"/>
@@ -930,6 +951,13 @@
         <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL"/>
         <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD"/>
         <option name="XPATH.XPATH_NAME" baseAttributes="TEXT"/>
+        <option name="XPATH.XPATH_VARIABLE"
+                baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
+        <option name="XSLT_DIRECTIVE">
+            <value>
+                <option name="FOREGROUND" value="c0c5ce"/>
+            </value>
+        </option>
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="org.rust.DOC_CODE">
             <value>

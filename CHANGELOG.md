@@ -6,6 +6,13 @@
 
 Nothing
 
+## [0.0.7]
+
+### Changes
+
+-   IDEA 2020.3.1 support
+-   Fix console color black
+
 ## [0.0.6]
 
 ### Changes

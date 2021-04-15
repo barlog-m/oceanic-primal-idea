@@ -3,20 +3,19 @@ import org.jetbrains.changelog.markdownToHTML
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "0.6.5"
-    id("org.jetbrains.changelog") version "0.6.2"
+    id("org.jetbrains.intellij") version "0.7.2"
+    id("org.jetbrains.changelog") version "1.1.2"
 
     // ./gradlew dependencyUpdates -Drevision=release
-    id("com.github.ben-manes.versions") version "0.36.0"
+    id("com.github.ben-manes.versions") version "0.38.0"
 }
 
 val appName = "oceanic-primal"
 
 group = "li.barlog"
-version = "0.0.6"
+version = "0.0.7"
 
 repositories {
-    jcenter()
     mavenCentral()
 }
 
@@ -40,7 +39,7 @@ tasks {
     patchPluginXml {
         version(version)
         sinceBuild("193")
-        untilBuild("203.*")
+        untilBuild("211.*")
 
         pluginDescription(
             closure {
@@ -69,7 +68,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "6.7.1"
+        gradleVersion = "7.0"
         distributionType = Wrapper.DistributionType.ALL
     }
 

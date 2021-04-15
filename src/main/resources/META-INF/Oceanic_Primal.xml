@@ -90,6 +90,11 @@
         <option name="COFFEESCRIPT.FUNCTION_NAME">
             <value/>
         </option>
+        <option name="CONSOLE_BLACK_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="0"/>
+            </value>
+        </option>
         <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="6699cc"/>
@@ -959,6 +964,11 @@
             </value>
         </option>
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
+        <option name="org.rust.CFG_DISABLED_CODE">
+            <value>
+                <option name="FOREGROUND" value="65737e"/>
+            </value>
+        </option>
         <option name="org.rust.DOC_CODE">
             <value>
                 <option name="FOREGROUND" value="6699cc"/>

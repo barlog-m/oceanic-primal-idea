@@ -31,7 +31,7 @@ java {
 
 intellij {
     pluginName = "Oceanic Primal Theme"
-    version = "IC-2020.3"
+    version = "IC-2021.1"
     type = "IC"
 }
 

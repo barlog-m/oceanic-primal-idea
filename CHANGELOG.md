@@ -6,6 +6,12 @@
 
 Nothing
 
+## [0.0.8]
+
+### Changes
+
+- IDEA 2021.2 support
+
 ## [0.0.7]
 
 ### Changes

@@ -6,6 +6,12 @@
 
 Nothing
 
+## [0.0.9]
+
+### Changes
+
+- Remove IDEA version limitations
+
 ## [0.0.8]
 
 ### Changes

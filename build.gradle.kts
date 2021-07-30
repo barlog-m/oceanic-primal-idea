@@ -11,13 +11,14 @@ plugins {
 }
 
 val appName = "oceanic-primal"
-val appVersion = "0.0.8"
+val appVersion = "0.0.9"
 
 group = "li.barlog"
 version = appVersion
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://cache-redirector.jetbrains.com/intellij-dependencies") }
 }
 
 val javaVer = JavaVersion.VERSION_11
@@ -52,7 +53,6 @@ tasks {
     patchPluginXml {
         version.set(appVersion)
         sinceBuild.set("193")
-        untilBuild.set("212.*")
 
         changeNotes.set(provider { changelog.getLatest().toHTML() })
 

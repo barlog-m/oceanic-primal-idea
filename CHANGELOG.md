@@ -6,6 +6,13 @@
 
 Nothing
 
+## [0.0.10]
+
+### Changes
+
+- Fix for new color options in Rust & Kotlin
+- Support Code with Me feature
+
 ## [0.0.9]
 
 ### Changes

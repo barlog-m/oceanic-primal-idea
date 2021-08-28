@@ -4,14 +4,14 @@ import org.jetbrains.changelog.markdownToHTML
 plugins {
     java
     id("org.jetbrains.intellij") version "1.1.4"
-    id("org.jetbrains.changelog") version "1.2.1"
+    id("org.jetbrains.changelog") version "1.3.0"
 
     // ./gradlew dependencyUpdates -Drevision=release
     id("com.github.ben-manes.versions") version "0.39.0"
 }
 
 val appName = "oceanic-primal"
-val appVersion = "0.0.9"
+val appVersion = "0.0.10"
 
 group = "li.barlog"
 version = appVersion
@@ -77,7 +77,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "7.1.1"
+        gradleVersion = "7.2"
         distributionType = Wrapper.DistributionType.ALL
     }
 

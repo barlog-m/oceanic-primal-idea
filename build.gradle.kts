@@ -1,20 +1,19 @@
 import org.jetbrains.changelog.date
 import org.jetbrains.changelog.markdownToHTML
 
+fun props(key: String) = project.findProperty(key).toString()
+
 plugins {
     java
-    id("org.jetbrains.intellij") version "1.1.4"
-    id("org.jetbrains.changelog") version "1.3.0"
+    id("org.jetbrains.intellij") version "1.3.0"
+    id("org.jetbrains.changelog") version "1.3.1"
 
     // ./gradlew dependencyUpdates -Drevision=release
     id("com.github.ben-manes.versions") version "0.39.0"
 }
 
-val appName = "oceanic-primal"
-val appVersion = "0.0.10"
-
-group = "li.barlog"
-version = appVersion
+group = props("appGroup")
+version = props("appVersion")
 
 repositories {
     mavenCentral()
@@ -32,13 +31,13 @@ java {
 }
 
 intellij {
-    pluginName.set("Oceanic Primal Theme")
-    version.set("IC-2021.2")
+    pluginName.set(props("pluginName"))
+    version.set("IC-2021.3")
     type.set("IC")
 }
 
 changelog {
-    version.set(appVersion)
+    version.set(props("appVersion"))
     path.set("${project.projectDir}/CHANGELOG.md")
     header.set(provider { "[${version.get()}] - ${date()}" })
     itemPrefix.set("-")
@@ -51,8 +50,9 @@ changelog {
 
 tasks {
     patchPluginXml {
-        version.set(appVersion)
+        version.set(props("appVersion"))
         sinceBuild.set("193")
+        untilBuild.set("512")
 
         changeNotes.set(provider { changelog.getLatest().toHTML() })
 
@@ -77,7 +77,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "7.2"
+        gradleVersion = "7.3"
         distributionType = Wrapper.DistributionType.ALL
     }
 

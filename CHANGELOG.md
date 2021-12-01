@@ -6,6 +6,13 @@
 
 Nothing
 
+## [0.0.11]
+
+### Changes
+
+- Support for IDEA 2021.3
+- Fix for new style parameter in Console
+
 ## [0.0.10]
 
 ### Changes

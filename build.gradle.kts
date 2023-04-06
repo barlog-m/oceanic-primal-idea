@@ -5,15 +5,15 @@ fun props(key: String) = project.findProperty(key).toString()
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "1.3.0"
-    id("org.jetbrains.changelog") version "1.3.1"
+    id("org.jetbrains.intellij") version "1.13.3"
+    id("org.jetbrains.changelog") version "2.0.0"
 
     // ./gradlew dependencyUpdates -Drevision=release
-    id("com.github.ben-manes.versions") version "0.39.0"
+    id("com.github.ben-manes.versions") version "0.46.0"
 }
 
-group = props("appGroup")
-version = props("appVersion")
+group = props("pluginGroup")
+version = props("pluginVersion")
 
 repositories {
     mavenCentral()
@@ -37,7 +37,7 @@ intellij {
 }
 
 changelog {
-    version.set(props("appVersion"))
+    version.set(props("pluginVersion"))
     path.set("${project.projectDir}/CHANGELOG.md")
     header.set(provider { "[${version.get()}] - ${date()}" })
     itemPrefix.set("-")
@@ -50,9 +50,8 @@ changelog {
 
 tasks {
     patchPluginXml {
-        version.set(props("appVersion"))
-        sinceBuild.set("193")
-        untilBuild.set("512")
+        version.set(props("pluginVersion"))
+        sinceBuild.set(props("pluginSinceBuild"))
 
         changeNotes.set(provider { changelog.getLatest().toHTML() })
 
@@ -77,7 +76,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "7.3"
+        gradleVersion = "8.0.2"
         distributionType = Wrapper.DistributionType.ALL
     }
 

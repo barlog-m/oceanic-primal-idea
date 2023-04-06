@@ -3,6 +3,34 @@
     "dark": true,
     "author": "Barlog M.",
     "editorScheme": "/META-INF/Oceanic_Primal.xml",
+    "colors": {
+        "backgroundColor": "#333333",
+        "blackLight": "#343d46",
+        "grayDark": "#4f5b66",
+        "gray": "#65737e",
+        "grayLight": "#a7adba",
+        "white": "#c0c5ce",
+        "silver": "#cdd3de",
+        "silverLight": "#d8dee9",
+        "red": "#ec5f67",
+        "orange": "#f99157",
+        "green": "#99c794",
+        "yellow": "#fac863",
+        "blue": "#6699cc",
+        "blueLight": "#bcdaf7",
+        "magenta": "#c594c5",
+        "cyan": "#62b3b2"
+    },
     "ui": {
+        "*": {
+            "background": "backgroundColor",
+            "FileColor.Yellow": "backgroundColor",
+            "FileColor.Blue": "backgroundColor",
+            "FileColor.Gray": "backgroundColor",
+            "FileColor.Green": "backgroundColor",
+            "FileColor.Orange": "backgroundColor",
+            "FileColor.Rose": "backgroundColor",
+            "FileColor.Violet": "backgroundColor"
+        }
     }
 }

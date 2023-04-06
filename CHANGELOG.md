@@ -6,6 +6,14 @@
 
 Nothing
 
+## [0.0.12]
+
+### Changes
+
+- Support for IDEA 2023.1
+- Fix for new color parameters
+- Update some colors
+
 ## [0.0.11]
 
 ### Changes

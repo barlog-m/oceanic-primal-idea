@@ -12,11 +12,12 @@
         <option name="DIAGRAM_REALIZATION_EDGE" value="99c794"/>
         <option name="DOC_COMMENT_GUIDE" value="65737e"/>
         <option name="DOC_COMMENT_LINK" value="6699cc"/>
+        <option name="EDITOR_GUTTER_BACKGROUND" value="1b2b34"/>
         <option name="ERROR_HINT" value="9b3339"/>
-        <option name="FILESTATUS_ADDED" value="6699cc"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967"/>
-        <option name="FILESTATUS_MODIFIED" value="5fb3b3"/>
-        <option name="FILESTATUS_UNKNOWN" value="ab7967"/>
+        <option name="FILESTATUS_ADDED" value="99c794"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="65737e"/>
+        <option name="FILESTATUS_MODIFIED" value="6699cc"/>
+        <option name="FILESTATUS_UNKNOWN" value="ec5f67"/>
         <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
         <option name="GUTTER_BACKGROUND" value="1b2b34"/>
         <option name="HTML_TAG_TREE_LEVEL0" value="ec5f67"/>
@@ -28,25 +29,26 @@
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="99c794"/>
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="4f5b66"/>
         <option name="INDENT_GUIDE" value=""/>
-        <option name="LINE_NUMBERS_COLOR" value="65737e"/>
+        <option name="LINE_NUMBERS_COLOR" value="4f5b66"/>
         <option name="METHOD_SEPARATORS_COLOR" value="4f5b66"/>
         <option name="MODIFIED_LINES_COLOR" value="4f5b66"/>
         <option name="NOTIFICATION_BACKGROUND" value="343d46"/>
         <option name="QUESTION_HINT" value="50749b"/>
         <option name="READONLY_FRAGMENT_BACKGROUND" value="1b2b34"/>
         <option name="RECURSIVE_CALL_ATTRIBUTES" value="c0c5ce"/>
-        <option name="RIGHT_MARGIN_COLOR" value="4f5b66"/>
+        <option name="RIGHT_MARGIN_COLOR" value="343d46"/>
         <option name="SELECTED_INDENT_GUIDE" value=""/>
-        <option name="SELECTED_TEARLINE_COLOR" value="65737e"/>
+        <option name="SELECTED_TEARLINE_COLOR" value="343d46"/>
         <option name="SELECTION_BACKGROUND" value="65737e"/>
         <option name="SELECTION_FOREGROUND" value="d8dee9"/>
-        <option name="TEARLINE_COLOR" value="d8dee9"/>
+        <option name="TEARLINE_COLOR" value="1b2b34"/>
         <option name="VCS_ANNOTATIONS_COLOR_1" value="cdd3de"/>
         <option name="VCS_ANNOTATIONS_COLOR_2" value="a7adba"/>
         <option name="VCS_ANNOTATIONS_COLOR_3" value="4f5b66"/>
         <option name="VCS_ANNOTATIONS_COLOR_4" value=""/>
         <option name="VCS_ANNOTATIONS_COLOR_5" value=""/>
-        <option name="VISUAL_INDENT_GUIDE" value="4f5b66"/>
+        <option name="VISUAL_INDENT_GUIDE" value="343d46"/>
+        <option name="WARNING_HINT" value="f0a732"/>
         <option name="WHITESPACES" value="c0c5ce"/>
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="fac863"/>
     </colors>
@@ -69,9 +71,6 @@
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
-        <option name="BASH.FUNCTION_CALL" baseAttributes=""/>
-        <option name="BASH.FUNCTION_DEF_NAME"
-                baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
         <option name="BASH.HERE_DOC">
             <value/>
         </option>
@@ -209,8 +208,6 @@
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES"
-                baseAttributes="DEFAULT_INVALID_STRING_ESCAPE"/>
         <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="6699cc"/>
@@ -235,12 +232,6 @@
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES"
-                baseAttributes="DEFAULT_LINE_COMMENT"/>
-        <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES"
-                baseAttributes="DEFAULT_BLOCK_COMMENT"/>
-        <option name="CUSTOM_NUMBER_ATTRIBUTES"
-                baseAttributes="DEFAULT_NUMBER"/>
         <option name="CUSTOM_STRING_ATTRIBUTES"
                 baseAttributes="DEFAULT_STRING"/>
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES"
@@ -362,7 +353,7 @@
         </option>
         <option name="DEFAULT_DOC_MARKUP">
             <value>
-                <option name="FOREGROUND" value="65737e"/>
+                <option name="FOREGROUND" value="6699cc"/>
             </value>
         </option>
         <option name="DEFAULT_DOT">
@@ -465,7 +456,6 @@
                 <option name="FOREGROUND" value="99c794"/>
             </value>
         </option>
-        <option name="DEFAULT_TAG" baseAttributes="TEXT"/>
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
             <value>
                 <option name="FOREGROUND" value="a2c2e2"/>
@@ -525,7 +515,7 @@
         <option name="ERRORS_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="ec5f67"/>
-                <option name="ERROR_STRIPE_COLOR" value="3c3f41"/>
+                <option name="ERROR_STRIPE_COLOR" value="ec5f67"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -544,15 +534,14 @@
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="bcdaf7"/>
-                <option name="BACKGROUND" value="1b2b34"/>
                 <option name="EFFECT_COLOR" value="bcdaf7"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
             <value>
-                <option name="EFFECT_COLOR" value="fac863"/>
-                <option name="ERROR_STRIPE_COLOR" value="fac863"/>
+                <option name="EFFECT_COLOR" value="f99157"/>
+                <option name="ERROR_STRIPE_COLOR" value="f99157"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -577,7 +566,12 @@
                 <option name="FOREGROUND" value="65737e"/>
             </value>
         </option>
-        <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD"/>
+        <option name="GRAMMAR_ERROR">
+            <value>
+                <option name="EFFECT_COLOR" value="ec5f67"/>
+                <option name="EFFECT_TYPE" value="2"/>
+            </value>
+        </option>
         <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
         <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING"/>
         <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
@@ -620,8 +614,8 @@
         </option>
         <option name="INFO_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="cccccc"/>
-                <option name="ERROR_STRIPE_COLOR" value="ffffcc"/>
+                <option name="EFFECT_COLOR" value="fac863"/>
+                <option name="ERROR_STRIPE_COLOR" value="fac863"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -646,8 +640,6 @@
                 <option name="BACKGROUND" value="cccccc"/>
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES"
-                baseAttributes="DEFAULT_INSTANCE_FIELD"/>
         <option name="Instance property reference ID">
             <value>
                 <option name="FOREGROUND" value="6699cc"/>
@@ -661,7 +653,6 @@
                 baseAttributes="DEFAULT_INSTANCE_METHOD"/>
         <option name="JS.LOCAL_VARIABLE"
                 baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
-        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
         <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING"/>
         <option name="JSP_SCRIPTING_BACKGROUND">
             <value>
@@ -935,10 +926,6 @@
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
-        <option name="STATIC_FIELD_ATTRIBUTES"
-                baseAttributes="DEFAULT_STATIC_FIELD"/>
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES"
-                baseAttributes="STATIC_FIELD_ATTRIBUTES"/>
         <option name="Scala Template lazy val/var">
             <value>
                 <option name="FOREGROUND" value="f99157"/>
@@ -956,6 +943,9 @@
         </option>
         <option name="Static property reference ID"
                 baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES"/>
+        <option name="TAB_SELECTED">
+            <value/>
+        </option>
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="1"/>
@@ -963,7 +953,7 @@
         </option>
         <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
             <value>
-                <option name="FONT_TYPE" value="1"/>
+                <option name="FONT_TYPE" value="3"/>
             </value>
         </option>
         <option name="TEXT">
@@ -975,6 +965,24 @@
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
                 <option name="ERROR_STRIPE_COLOR" value="d8dee9"/>
+            </value>
+        </option>
+        <option name="TEXT_STYLE_ERROR">
+            <value>
+                <option name="EFFECT_COLOR" value="ec5f67"/>
+                <option name="EFFECT_TYPE" value="5"/>
+            </value>
+        </option>
+        <option name="TEXT_STYLE_SUGGESTION">
+            <value>
+                <option name="EFFECT_COLOR" value="fac863"/>
+                <option name="EFFECT_TYPE" value="5"/>
+            </value>
+        </option>
+        <option name="TEXT_STYLE_WARNING">
+            <value>
+                <option name="EFFECT_COLOR" value="f99157"/>
+                <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -1008,8 +1016,8 @@
         </option>
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="fac863"/>
-                <option name="ERROR_STRIPE_COLOR" value="fac863"/>
+                <option name="EFFECT_COLOR" value="f99157"/>
+                <option name="ERROR_STRIPE_COLOR" value="f99157"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -1041,11 +1049,6 @@
         <option name="XPATH.XPATH_NAME" baseAttributes="TEXT"/>
         <option name="XPATH.XPATH_VARIABLE"
                 baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
-        <option name="XSLT_DIRECTIVE">
-            <value>
-                <option name="FOREGROUND" value="c0c5ce"/>
-            </value>
-        </option>
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="org.rust.CFG_DISABLED_CODE">
             <value>

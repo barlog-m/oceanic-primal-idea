@@ -6,6 +6,12 @@
 
 Nothing
 
+## [0.0.13]
+
+### Changes
+
+- Fix for supported IDEA version range
+
 ## [0.0.12]
 
 ### Changes

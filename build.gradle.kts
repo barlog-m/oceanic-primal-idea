@@ -52,6 +52,7 @@ tasks {
     patchPluginXml {
         version.set(props("pluginVersion"))
         sinceBuild.set(props("pluginSinceBuild"))
+        untilBuild.set(props("pluginUntilBuild"))
 
         changeNotes.set(provider { changelog.getLatest().toHTML() })
 

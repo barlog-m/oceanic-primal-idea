@@ -6,6 +6,12 @@
 
 Nothing
 
+## [0.1.1]
+
+### Changes
+
+- Support Intellij IDEA 2023.2
+
 ## [0.0.13]
 
 ### Changes

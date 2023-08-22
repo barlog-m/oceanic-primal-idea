@@ -5,11 +5,11 @@ fun props(key: String) = project.findProperty(key).toString()
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "1.13.3"
-    id("org.jetbrains.changelog") version "2.0.0"
+    id("org.jetbrains.intellij") version "1.15.0"
+    id("org.jetbrains.changelog") version "2.1.2"
 
     // ./gradlew dependencyUpdates -Drevision=release
-    id("com.github.ben-manes.versions") version "0.46.0"
+    id("com.github.ben-manes.versions") version "0.47.0"
 }
 
 group = props("pluginGroup")
@@ -77,7 +77,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "8.0.2"
+        gradleVersion = "8.3"
         distributionType = Wrapper.DistributionType.ALL
     }
 

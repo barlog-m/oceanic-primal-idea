@@ -9,7 +9,7 @@
 
 <!-- Plugin description end -->
 
-**Not** [base16](http://chriskempson.com/projects/base16/) theme: fewer color, more ocean
+**Not** [base16](https://github.com/chriskempson/base16) theme: fewer color, more ocean
 
 A minimalistic theme based on [Oceanic Primal palette](https://github.com/oceanic-primal/palette), inspired by [Oceanic-Next.vim](https://github.com/mhartington/oceanic-next)
 

@@ -586,11 +586,7 @@
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="6699cc" />
-        <option name="ERROR_STRIPE_COLOR" value="6699cc" />
-      </value>
+      <value />
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
@@ -683,7 +679,6 @@
         <option name="FOREGROUND" value="fac863" />
       </value>
     </option>
-    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -706,7 +701,6 @@
     <option name="KOTLIN_SMART_CONSTANT">
       <value />
     </option>
-    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="KOTLIN_WRAPPED_INTO_REF">
       <value>
         <option name="FOREGROUND" value="c0c5ce" />
@@ -728,9 +722,10 @@
       </value>
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="fac863" />
-      </value>
+      <value />
+    </option>
+    <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
+      <value />
     </option>
     <option name="LOGCAT_ASSERT_OUTPUT">
       <value>
@@ -843,6 +838,9 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="ReSharper.OUTLINED_ENTITY">
+      <value />
+    </option>
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_MIXIN">
       <value>
@@ -925,14 +923,11 @@
         <option name="FOREGROUND" value="f99157" />
       </value>
     </option>
-    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TAB_SELECTED">
       <value />
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
       <value>
@@ -977,7 +972,7 @@
     <option name="TS.TYPE_GUARD">
       <value />
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="bcdaf7" />
@@ -1046,20 +1041,14 @@
         <option name="FOREGROUND" value="6699cc" />
       </value>
     </option>
-    <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="org.rust.GENERATED_ITEM">
       <value />
     </option>
-    <option name="org.rust.LIFETIME" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="org.rust.MACRO">
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
       </value>
     </option>
-    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="org.rust.MUT_BINDING" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="org.rust.MUT_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="org.rust.UNSAFE_CODE">
       <value>
         <option name="EFFECT_TYPE" value="1" />

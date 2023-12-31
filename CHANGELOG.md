@@ -6,6 +6,12 @@
 
 Nothing
 
+## [0.2.0]
+
+### Changes
+
+- Minimal supported Intellij IDEA 2023.1
+
 ## [0.1.1]
 
 ### Changes

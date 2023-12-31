@@ -5,11 +5,11 @@ fun props(key: String) = project.findProperty(key).toString()
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "1.15.0"
-    id("org.jetbrains.changelog") version "2.1.2"
+    id("org.jetbrains.intellij") version "1.16.1"
+    id("org.jetbrains.changelog") version "2.2.0"
 
     // ./gradlew dependencyUpdates -Drevision=release
-    id("com.github.ben-manes.versions") version "0.47.0"
+    id("com.github.ben-manes.versions") version "0.50.0"
 }
 
 group = props("pluginGroup")
@@ -32,7 +32,7 @@ java {
 
 intellij {
     pluginName.set(props("pluginName"))
-    version.set("IC-2021.3")
+    version.set("IC-2023.3")
     type.set("IC")
 }
 
@@ -52,7 +52,7 @@ tasks {
     patchPluginXml {
         version.set(props("pluginVersion"))
         sinceBuild.set(props("pluginSinceBuild"))
-        untilBuild.set(props("pluginUntilBuild"))
+        untilBuild.set("")
 
         changeNotes.set(provider { changelog.getLatest().toHTML() })
 
@@ -77,7 +77,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "8.3"
+        gradleVersion = "8.5"
         distributionType = Wrapper.DistributionType.ALL
     }
 

@@ -200,6 +200,11 @@
         <option name="FOREGROUND" value="fac863" />
       </value>
     </option>
+    <option name="CSS.IMPORTANT">
+      <value>
+        <option name="FOREGROUND" value="ec5f67" />
+      </value>
+    </option>
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="EFFECT_COLOR" value="6699cc" />
@@ -209,25 +214,21 @@
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6699cc" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c0c5ce" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="99c794" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="5fb3b3" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
@@ -397,7 +398,7 @@
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="FOREGROUND" value="c0c5ce" />
+        <option name="FOREGROUND" value="6699cc" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -435,6 +436,11 @@
         <option name="FOREGROUND" value="cdd3de" />
       </value>
     </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="fac863" />
@@ -449,7 +455,7 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="FOREGROUND" value="a2c2e2" />
+        <option name="FOREGROUND" value="99c794" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -637,6 +643,7 @@
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value>
         <option name="FOREGROUND" value="99c794" />
@@ -679,6 +686,7 @@
         <option name="FOREGROUND" value="fac863" />
       </value>
     </option>
+    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -687,6 +695,7 @@
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value />
     </option>
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="KOTLIN_QUEST">
       <value>
         <option name="FOREGROUND" value="fac863" />
@@ -831,6 +840,7 @@
         <option name="FOREGROUND" value="ec5f67" />
       </value>
     </option>
+    <option name="REGEXP.META" baseAttributes="DEFAULT_KEYWORD" />
     <option name="RUNTIME_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="ec5f67" />
@@ -908,6 +918,9 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="STATIC_METHOD_ATTRIBUTES">
+      <value />
+    </option>
     <option name="Scala Template lazy val/var">
       <value>
         <option name="FOREGROUND" value="f99157" />
@@ -923,6 +936,8 @@
         <option name="FOREGROUND" value="f99157" />
       </value>
     </option>
+    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
+    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TAB_SELECTED">
       <value />
     </option>
@@ -972,7 +987,7 @@
     <option name="TS.TYPE_GUARD">
       <value />
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="bcdaf7" />
@@ -991,6 +1006,8 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="VELOCITY_DIRECTIVE" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="f99157" />
@@ -1016,6 +1033,7 @@
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
@@ -1025,11 +1043,6 @@
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
     <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="XSLT_DIRECTIVE">
-      <value>
-        <option name="FOREGROUND" value="c0c5ce" />
-      </value>
-    </option>
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="org.rust.CFG_DISABLED_CODE">
       <value>

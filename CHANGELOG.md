@@ -6,6 +6,12 @@
 
 Nothing
 
+## [0.2.1]
+
+### Changes
+
+- Some fixes
+
 ## [0.2.0]
 
 ### Changes

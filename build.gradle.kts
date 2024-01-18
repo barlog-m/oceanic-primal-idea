@@ -5,7 +5,7 @@ fun props(key: String) = project.findProperty(key).toString()
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "1.16.1"
+    id("org.jetbrains.intellij") version "1.17.0"
     id("org.jetbrains.changelog") version "2.2.0"
 
     // ./gradlew dependencyUpdates -Drevision=release

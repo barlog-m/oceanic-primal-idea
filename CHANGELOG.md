@@ -6,6 +6,19 @@
 
 Nothing
 
+## [0.4.0]
+
+### Changes
+
+- Magenta color fix
+- Updates for Rust and TypeScript
+
+## [0.3.0]
+
+### Changes
+
+- Some fixes
+
 ## [0.2.1]
 
 ### Changes

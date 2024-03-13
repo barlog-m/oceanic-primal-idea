@@ -5,11 +5,11 @@ fun props(key: String) = project.findProperty(key).toString()
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "1.17.0"
+    id("org.jetbrains.intellij") version "1.17.2"
     id("org.jetbrains.changelog") version "2.2.0"
 
     // ./gradlew dependencyUpdates -Drevision=release
-    id("com.github.ben-manes.versions") version "0.50.0"
+    id("com.github.ben-manes.versions") version "0.51.0"
 }
 
 group = props("pluginGroup")
@@ -20,7 +20,7 @@ repositories {
     maven { url = uri("https://cache-redirector.jetbrains.com/intellij-dependencies") }
 }
 
-val javaVer = JavaVersion.VERSION_11
+val javaVer = JavaVersion.VERSION_21
 
 dependencies {
 }
@@ -77,7 +77,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "8.5"
+        gradleVersion = "8.6"
         distributionType = Wrapper.DistributionType.ALL
     }
 

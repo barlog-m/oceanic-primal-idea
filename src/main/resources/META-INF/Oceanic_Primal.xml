@@ -57,7 +57,8 @@
                 <option name="FOREGROUND" value="c594c5"/>
             </value>
         </option>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes=""/>
+        <option name="ANNOTATION_NAME_ATTRIBUTES"
+                baseAttributes="DEFAULT_METADATA"/>
         <option name="BAD_CHARACTER">
             <value>
                 <option name="BACKGROUND" value="ec5f67"/>
@@ -106,13 +107,13 @@
         </option>
         <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="5fb3b3"/>
+                <option name="FOREGROUND" value="62b3b2"/>
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="CONSOLE_CYAN_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="5fb3b3"/>
+                <option name="FOREGROUND" value="62b3b2"/>
             </value>
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
@@ -365,28 +366,13 @@
                 <option name="FOREGROUND" value="ec5f67"/>
             </value>
         </option>
-        <option name="DEFAULT_FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="cdd3de"/>
-            </value>
-        </option>
-        <option name="DEFAULT_FUNCTION_DECLARATION">
-            <value>
-                <option name="FOREGROUND" value="cdd3de"/>
-            </value>
-        </option>
-        <option name="DEFAULT_GLOBAL_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="c0c5ce"/>
-            </value>
-        </option>
+        <option name="DEFAULT_FUNCTION_CALL"
+                baseAttributes="DEFAULT_IDENTIFIER"/>
+        <option name="DEFAULT_FUNCTION_DECLARATION"
+                baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE"
                 baseAttributes="DEFAULT_STRING"/>
-        <option name="DEFAULT_IDENTIFIER">
-            <value>
-                <option name="FOREGROUND" value="cdd3de"/>
-            </value>
-        </option>
+        <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT"/>
         <option name="DEFAULT_INSTANCE_FIELD"
                 baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -413,7 +399,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="5fb3b3"/>
+                <option name="FOREGROUND" value="62b3b2"/>
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -426,26 +412,15 @@
                 <option name="FOREGROUND" value="fac863"/>
             </value>
         </option>
-        <option name="DEFAULT_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="cdd3de"/>
-            </value>
-        </option>
         <option name="DEFAULT_PARENTHS">
             <value>
                 <option name="FOREGROUND" value="fac863"/>
             </value>
         </option>
-        <option name="DEFAULT_PREDEFINED_SYMBOL">
-            <value>
-                <option name="FOREGROUND" value="cdd3de"/>
-            </value>
-        </option>
-        <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
-            <value>
-                <option name="EFFECT_TYPE" value="1"/>
-            </value>
-        </option>
+        <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE"
+                baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
+        <option name="DEFAULT_REASSIGNED_PARAMETER"
+                baseAttributes="DEFAULT_PARAMETER"/>
         <option name="DEFAULT_SEMICOLON">
             <value>
                 <option name="FOREGROUND" value="fac863"/>
@@ -537,8 +512,8 @@
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="bcdaf7"/>
-                <option name="EFFECT_COLOR" value="bcdaf7"/>
+                <option name="FOREGROUND" value="6699cc"/>
+                <option name="EFFECT_COLOR" value="6699cc"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -648,9 +623,6 @@
                 <option name="FOREGROUND" value="6699cc"/>
             </value>
         </option>
-        <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING"/>
-        <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL"/>
-        <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="JS.GLOBAL_FUNCTION"
                 baseAttributes="DEFAULT_FUNCTION_DECLARATION"/>
         <option name="JS.GLOBAL_VARIABLE"
@@ -660,7 +632,7 @@
         <option name="JS.LOCAL_VARIABLE"
                 baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
         <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING"/>
-        <option name="JSP_DIRECTIVE_NAME" baseAttributes=""/>
+        <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD"/>
         <option name="JSP_SCRIPTING_BACKGROUND">
             <value>
                 <option name="FOREGROUND" value="99c794"/>
@@ -703,7 +675,6 @@
                 <option name="FOREGROUND" value="fac863"/>
             </value>
         </option>
-        <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL"/>
         <option name="KOTLIN_MUTABLE_VARIABLE">
             <value>
                 <option name="EFFECT_TYPE" value="1"/>
@@ -712,8 +683,6 @@
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value/>
         </option>
-        <option name="KOTLIN_PACKAGE_FUNCTION_CALL"
-                baseAttributes="DEFAULT_STATIC_METHOD"/>
         <option name="KOTLIN_QUEST">
             <value>
                 <option name="FOREGROUND" value="fac863"/>
@@ -753,7 +722,9 @@
             <value/>
         </option>
         <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
-            <value/>
+            <value>
+                <option name="FOREGROUND" value="65737e"/>
+            </value>
         </option>
         <option name="LOGCAT_ASSERT_OUTPUT">
             <value>
@@ -910,6 +881,11 @@
                 <option name="FOREGROUND" value="62b3b2"/>
             </value>
         </option>
+        <option name="ReSharper.CSHARP_TYPE_PARAMETER_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="62b3b2"/>
+            </value>
+        </option>
         <option
             name="ReSharper.DYNAMIC_PROGRAM_ANALYSIS_HIGHLIGHTER_ISSUE_FRAME">
             <value>
@@ -949,6 +925,11 @@
         </option>
         <option name="ReSharper.OUTLINED_ENTITY">
             <value/>
+        </option>
+        <option name="ReSharper.TYPE_PARAMETER_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="62b3b2"/>
+            </value>
         </option>
         <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT"/>
         <option name="SASS_MIXIN">
@@ -1044,13 +1025,13 @@
         </option>
         <option name="Static method access"
                 baseAttributes="STATIC_METHOD_ATTRIBUTES"/>
-        <option name="Static property reference ID"
-                baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES"/>
         <option name="TAB_SELECTED">
             <value/>
         </option>
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
-            <value/>
+            <value>
+                <option name="FOREGROUND" value="62b3b2"/>
+            </value>
         </option>
         <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
             <value>
@@ -1094,6 +1075,11 @@
         </option>
         <option name="TS.TYPE_GUARD">
             <value/>
+        </option>
+        <option name="TS.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="62b3b2"/>
+            </value>
         </option>
         <option name="TYPE_PARAMETER_NAME_ATTRIBUTES"
                 baseAttributes="DEFAULT_PARAMETER"/>
@@ -1150,9 +1136,8 @@
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
-        <option name="VELOCITY_DIRECTIVE" baseAttributes="DEFAULT_KEYWORD"/>
-        <option name="VELOCITY_SCRIPTING_BACKGROUND"
-                baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR"/>
+        <option name="VELOCITY_DIRECTIVE" baseAttributes=""/>
+        <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes=""/>
         <option name="WARNING_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="f99157"/>
@@ -1205,7 +1190,12 @@
         </option>
         <option name="org.rust.MACRO">
             <value>
-                <option name="FOREGROUND" value="5fb3b3"/>
+                <option name="FOREGROUND" value="62b3b2"/>
+            </value>
+        </option>
+        <option name="org.rust.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="62b3b2"/>
             </value>
         </option>
         <option name="org.rust.UNSAFE_CODE">

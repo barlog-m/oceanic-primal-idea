@@ -6,6 +6,12 @@
 
 Nothing
 
+## [0.4.1]
+
+### Changes
+
+- Fix identifier background color
+
 ## [0.4.0]
 
 ### Changes

@@ -372,7 +372,11 @@
                 baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE"
                 baseAttributes="DEFAULT_STRING"/>
-        <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT"/>
+        <option name="DEFAULT_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="c0c5ce"/>
+            </value>
+        </option>
         <option name="DEFAULT_INSTANCE_FIELD"
                 baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">

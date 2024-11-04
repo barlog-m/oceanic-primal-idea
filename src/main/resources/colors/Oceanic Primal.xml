@@ -12,14 +12,12 @@
         <option name="DIAGRAM_REALIZATION_EDGE" value="99c794"/>
         <option name="DOC_COMMENT_GUIDE" value="65737e"/>
         <option name="DOC_COMMENT_LINK" value="6699cc"/>
-        <option name="EDITOR_GUTTER_BACKGROUND" value="1b2b34"/>
         <option name="ERROR_HINT" value="9b3339"/>
         <option name="FILESTATUS_ADDED" value="99c794"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="65737e"/>
         <option name="FILESTATUS_MODIFIED" value="6699cc"/>
         <option name="FILESTATUS_UNKNOWN" value="ec5f67"/>
         <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
-        <option name="GUTTER_BACKGROUND" value="1b2b34"/>
         <option name="HTML_TAG_TREE_LEVEL0" value="ec5f67"/>
         <option name="HTML_TAG_TREE_LEVEL1" value="fac863"/>
         <option name="HTML_TAG_TREE_LEVEL2" value="99c794"/>
@@ -28,7 +26,7 @@
         <option name="HTML_TAG_TREE_LEVEL5" value="c594c5"/>
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="99c794"/>
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="4f5b66"/>
-        <option name="INDENT_GUIDE" value=""/>
+        <option name="INDENT_GUIDE" value="343d46" />
         <option name="LINE_NUMBERS_COLOR" value="4f5b66"/>
         <option name="METHOD_SEPARATORS_COLOR" value="4f5b66"/>
         <option name="MODIFIED_LINES_COLOR" value="4f5b66"/>

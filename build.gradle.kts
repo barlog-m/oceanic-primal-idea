@@ -1,3 +1,4 @@
+import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.date
 import org.jetbrains.changelog.markdownToHTML
 
@@ -5,11 +6,11 @@ fun props(key: String) = project.findProperty(key).toString()
 
 plugins {
     java
-    id("org.jetbrains.intellij") version "1.17.4"
+    id("org.jetbrains.intellij.platform") version "2.5.0"
     id("org.jetbrains.changelog") version "2.2.1"
 
     // ./gradlew dependencyUpdates -Drevision=release
-    id("com.github.ben-manes.versions") version "0.51.0"
+    id("com.github.ben-manes.versions") version "0.52.0"
 }
 
 group = props("pluginGroup")
@@ -17,23 +18,22 @@ version = props("pluginVersion")
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://cache-redirector.jetbrains.com/intellij-dependencies") }
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
 val javaVer = JavaVersion.VERSION_21
 
 dependencies {
+    intellijPlatform {
+        intellijIdeaCommunity("2025.1")
+    }
 }
 
 java {
     sourceCompatibility = javaVer
     targetCompatibility = javaVer
-}
-
-intellij {
-    pluginName.set(props("pluginName"))
-    version.set("IC-2024.2")
-    type.set("IC")
 }
 
 changelog {
@@ -50,11 +50,11 @@ changelog {
 
 tasks {
     patchPluginXml {
-        version.set(props("pluginVersion"))
+        pluginVersion.set(props("pluginVersion"))
         sinceBuild.set(props("pluginSinceBuild"))
-        untilBuild.set("")
+        untilBuild.set("${props("pluginSinceBuild")}.*")
 
-        changeNotes.set(provider { changelog.getLatest().toHTML() })
+        changeNotes.set(provider { changelog.renderItem(changelog.getLatest(), Changelog.OutputType.HTML) })
 
         pluginDescription.set(
             provider {
@@ -77,7 +77,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "8.10.2"
+        gradleVersion = "8.14"
         distributionType = Wrapper.DistributionType.ALL
     }
 
